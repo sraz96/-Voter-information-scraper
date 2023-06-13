@@ -34,7 +34,7 @@ driver.find_element_by_id("captchaEpicImg").screenshot('captcha.png')
 
 time.sleep(2)
 
-stateValue = "Haryana"
+stateValue = "Maharastra"
 for option in select.options:
     value = option.get_attribute('value')
     if stateValue == value:
